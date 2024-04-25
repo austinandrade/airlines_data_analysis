@@ -1,27 +1,5 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -30,23 +8,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/austinandrade/airlines_data_analysis">
+    <img src="images/plane.svg" alt="Plane" width="140" height="140">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Airlines Data Analysis</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    This project conducts a comprehensive data analysis on British Airways customer reviews to unearth actionable insights and pinpoint areas for service enhancement. Leveraging Tableau for visualization, it offers a            digestible overview of service performance across various dimensions, such as in-flight entertainment, cabin staff service, and overall passenger satisfaction.
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://public.tableau.com/views/AirlinesReviewsViz/BritishAirlinesReviewsDashboard?:language=en-US&publish=yes&:sid=9EDAFA881BD04528B4A8B9351A7DAB6E-0:0&:display_count=n&:origin=viz_share_link">View Interactive Dashboard</a>
   </p>
 </div>
 
@@ -59,22 +31,14 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#insights">Insights</a></li>
+        <li><a href="#reccomendations">Reccomendations</a></li>
+        <li><a href="#project-outcomes">Project Outcomes</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -83,104 +47,90 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This data analysis project delves into a dataset of customer reviews for British Airways, focusing on extracting meaningful insights into the airline's service quality and customer satisfaction. The dataset includes detailed reviews covering seat comfort, food and beverage quality, cabin staff service, ground service, and in-flight entertainment.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The project employs Tableau to create engaging visualizations that highlight key areas of strength and opportunities for improvement. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Through rigorous analysis, it identifies trends and correlations that affect passenger satisfaction, including insights into the most and least ideal countries, months, and aircraft types. This helps in understanding passenger expectations and the factors influencing their recommendations.
 
+Key findings suggest areas where British Airways could enhance its services, such as upgrading in-flight entertainment, improving food quality, and standardizing service delivery to boost overall customer satisfaction. The visualizations provide a clear, intuitive understanding of the data, making it easy to identify trends and make data-driven recommendations.
 
+This analysis serves as a resource for stakeholders interested in enhancing airline service quality and operational efficiency.
 
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+![tableau-preview](/images/tableau_preview.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- INSIGHTS -->
+## Insights
 
+### 1. Overall Rating
+The average customer satisfaction rating is approximately 4.19 out of 10, with a wide variance in experiences, indicating generally poor satisfaction.
+### 2. Recommendation and Verification
+A majority of 57% of the reviews do not recommend British Airways, although 92% of these reviews are verified, enhancing their credibility.
+### 3. Service Quality Assessments
+- **Seat Comfort:** An average rating of 2.87 out of 5 suggests moderate dissatisfaction with seating.
+- **Cabin Staff Service:** Slightly below average, rated 3.28 out of 5.
+- **Food and Beverages:** Poor satisfaction with an average score of 2.38 out of 5.
+- **Ground Service:** Moderate rating of 3.03 out of 5, indicating potential improvement areas.
+- **Value for Money:** A rating of 2.78 out of 5 shows that passengers want better value.
+- **Entertainment:** Extremely low satisfaction with an average rating of 1.44 out of 5.
+  
+### 4. Geographic and Seasonal Variations
+- **Countries:** The highest satisfaction is in the Czech Republic, Taiwan, Turkey, Hungary, and Senegal; the lowest is in China, Hong Kong, and South Africa.
+- **Months:** Satisfaction and recommendations were higher in April, May, and June and lower in October and November, suggesting seasonal operational challenges.
+  
+### 5. Aircraft Variations
+The best experiences were reported on the Airbus A350-1000, Boeing 787, and Boeing 747-400; significant dissatisfaction was noted with the A321NEO and specific Boeing configurations.
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Reccomendations -->
+## Reccomendations
 
+### 1. Focus on Problematic Areas
+Upgrade or adjust aircraft service and physical aspects that consistently receive low ratings to enhance customer satisfaction.
 
-<!-- USAGE EXAMPLES -->
-## Usage
+### 2. Target Seasonal Improvements
+Investigate and address the causes of lower ratings during October and November with targeted improvements or promotional activities to boost satisfaction.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### 3. Leverage Strong Correlations
+Enhance training and quality control in areas strongly correlated with high satisfaction, such as seat comfort, cabin staff service, and food quality, to improve overall ratings and value perception.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### 4. Customized Approaches by Country
+Tailor services and marketing strategies to meet passengers' specific expectations and preferences from countries with low satisfaction ratings, like China and South Africa.
+
+### 5. Enhance In-Flight Entertainment
+Upgrade the in-flight entertainment systems with more engaging content and better hardware to improve the lowest-rated aspect of the service.
+
+### 6. Improve Food and Beverage Quality
+Focus on enhancing the quality and variety of food and beverages by revising the menu, using higher-quality ingredients, or offering more diverse dietary options.
+
+### 7. Boost Cabin Staff Training
+Implement training programs focused on friendliness and responsiveness to improve interactions and satisfaction in cabin staff service.
+
+### 8. Reevaluate Seating Comfort
+To enhance comfort and the overall travel experience, consider revising seating ergonomics, especially for long-haul flights.
+
+### 9. Better Value Propositions
+Address value-for-money concerns by revising pricing strategies or enhancing service quality to justify the current prices, including promotions or loyalty benefits.
+
+### 10. Foster a Consistent Service Experience
+Standardize service quality across different flights and staff to reduce variability in customer experiences and ensure uniformly high-quality expertise.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- PROJECT OUTCOMES -->
+## Project Outcomes
+This project provided an in-depth analysis of customer feedback for British Airways, revealing crucial insights into service aspects that significantly influence passenger satisfaction. Key findings highlighted the importance of seat comfort, cabin staff service, and in-flight entertainment, identifying these as primary drivers of customer approval. The analysis also uncovered variations in satisfaction based on geographic and seasonal factors, enabling targeted service improvements.
 
+Utilizing Tableau, the project translated complex data into clear visualizations, making the insights accessible to stakeholders across various levels. This facilitated informed decision-making and strategic planning. Recommendations generated from the analysis focus on enhancing service quality in critical areas, such as upgrading entertainment systems and improving food service. These outcomes map a path for enhancing customer experience and laying the groundwork for ongoing improvements, positioning British Airways to meet expectations better and strengthen its market position.
 
-<!-- ROADMAP -->
-## Roadmap
+## Built With
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+* [Tableau Public](https://public.tableau.com/)
 
 
 <!-- LICENSE -->
@@ -195,20 +145,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Austin Andrade - [Connect with Me](https://www.linkedin.com/in/austinandrade/) - austinmandrade@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/austinandrade/airlines_data_analysis](https://github.com/austinandrade/airlines_data_analysis)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,32 +155,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/austinandrade/house_sales_data_analysis.svg?style=for-the-badge
+[license-url]: https://github.com/austinandrade/airlines_data_analysis/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[linkedin-url]: https://linkedin.com/in/austinandrade
