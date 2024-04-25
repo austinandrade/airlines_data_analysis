@@ -78,10 +78,14 @@ A majority of 57% of the reviews do not recommend British Airways, although 92% 
   
 ### 4. Geographic and Seasonal Variations
 - **Countries:** The highest satisfaction is in the Czech Republic, Taiwan, Turkey, Hungary, and Senegal; the lowest is in China, Hong Kong, and South Africa.
+![tableau-countries](/images/ratings_by_country.png)
+
 - **Months:** Satisfaction and recommendations were higher in April, May, and June and lower in October and November, suggesting seasonal operational challenges.
-  
+![tableau-months](/images/ratings_by_month.png)
+
 ### 5. Aircraft Variations
 The best experiences were reported on the Airbus A350-1000, Boeing 787, and Boeing 747-400; significant dissatisfaction was noted with the A321NEO and specific Boeing configurations.
+![tableau-aircrafts](/images/ratings_by_aircraft.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
