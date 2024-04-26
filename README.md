@@ -87,6 +87,15 @@ A majority of 57% of the reviews do not recommend British Airways, although 92% 
 The best experiences were reported on the Airbus A350-1000, Boeing 787, and Boeing 747-400; significant dissatisfaction was noted with the A321NEO and specific Boeing configurations.
 ![tableau-aircrafts](/images/ratings_by_aircraft.png)
 
+### 6. Correlations
+#### Positive Correlations
+- Seat Comfort and Value for Money: There's a strong positive correlation between seat comfort and perceived value for money (0.68), suggesting that comfort significantly influences perceptions of value.
+- Cabin Staff Service and Food & Beverages: A high correlation (0.65) indicates that good cabin staff service is often associated with higher food and beverage satisfaction.
+- Food & Beverages and Value for Money: The quality and satisfaction with food and beverages are strongly correlated with perceived value for money (0.63).
+
+#### Negative or Low Correlations
+Overall Rating and Specific Features: Surprisingly, the overall rating shows a low correlation with specific features like seat comfort, cabin staff service, and food and beverages. This indicates other factors influencing the overall rating or that passengers weigh certain aspects more heavily depending on their priorities.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
